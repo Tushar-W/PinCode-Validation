@@ -19,9 +19,9 @@ function checkPattern() {
 read -p "Enter PinCode:" pincode
 checkPattern
 #restrict the pincode from taking alphabet or special char at begin
-read -p "Enter PinCode:" pincode
+pincode=A400088
 checkPattern
 #restrict the pincode from taking alphabet or special char at end
-read -p "Enter PinCode:" pincode
+pincode=400088B
 checkPattern
 
