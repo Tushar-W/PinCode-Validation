@@ -8,7 +8,7 @@ PINCODE_SPACE_PATTERN="^([0-9]{3}[ ]?[0-9]{3})$"
 
 #check given pincode validate or not
 function checkPattern() {
-	if [[ $1 =~ $2 ]];
+	if [[ $pincode =~ $2 ]];
 	then
 		echo "PinCode Is Valid"
 	else
